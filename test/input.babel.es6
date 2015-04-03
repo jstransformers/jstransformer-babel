@@ -11,6 +11,7 @@ class Person {
 
 class Hero extends Person {
   constructor(name, movement) {
+    super();
     this.name = name;
     this.movement = movement;
   }
