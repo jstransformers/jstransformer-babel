@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.0.4: May 25th, 2015
+
+- Fixed test
+
 ## v0.0.3: April 3rd, 2015
 
 - Update Babel to 5.0.3
