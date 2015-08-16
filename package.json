@@ -1,29 +1,31 @@
 {
+  "dependencies": {
+    "babel-core": "^5.8.22"
+  },
   "name": "jstransformer-babel",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "description": "Babel support for JS Transformers.",
   "keywords": [
     "jstransformer",
     "babel"
   ],
-  "license": "MIT",
-  "dependencies": {
-    "babel-core": "^5.4.7"
-  },
-  "devDependencies": {
-    "istanbul": "^0.3.5",
-    "testit": "^2.0.2"
-  },
-  "scripts": {
-    "test": "node test",
-    "coverage": "istanbul cover test"
-  },
   "files": [
     "index.js"
   ],
+  "devDependencies": {
+    "test-jstransformer": "^1.0.0"
+  },
+  "scripts": {
+    "coverage": "test-jstransformer coverage",
+    "test": "test-jstransformer"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/jstransformers/jstransformer-babel.git"
   },
-  "author": "Rob Loach <robloach@gmail.com>"
+  "author": {
+    "name": "JSTransformers Team",
+    "url": "http://github.com/orgs/jstransformers/people"
+  },
+  "license": "MIT"
 }
