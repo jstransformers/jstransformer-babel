@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.2.0: 2015-08-16
+
+- Fix to remove invalid Babel options
+
 ## v0.1.0: 2015-08-16
 
 - Updated dependencies
