@@ -19,6 +19,9 @@
     "coverage": "test-jstransformer coverage",
     "test": "test-jstransformer"
   },
+  "engines": {
+    "node": ">=0.10.36"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/jstransformers/jstransformer-babel.git"
