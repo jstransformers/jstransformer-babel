@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "babel-core": "^5.8.22"
+    "babel-core": "^6.1.18"
   },
   "name": "jstransformer-babel",
   "version": "0.2.0",
