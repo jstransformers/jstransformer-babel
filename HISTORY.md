@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.0.1: 2015-11-12
+
+- Some documentation updates
+
 ## v1.0.0: 2015-11-12
 
 - Unchanged from last release
