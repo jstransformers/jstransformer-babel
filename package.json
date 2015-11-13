@@ -13,6 +13,7 @@
     "babel-core": "^6.1.18"
   },
   "devDependencies": {
+    "babel-preset-es2015": "^6.1.18",
     "test-jstransformer": "^1.0.0"
   },
   "scripts": {

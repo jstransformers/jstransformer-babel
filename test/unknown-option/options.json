@@ -1,3 +1,6 @@
 {
-  "non-existing-option": true
+  "non-existing-option": true,
+  "presets": [
+    "es2015"
+  ]
 }
