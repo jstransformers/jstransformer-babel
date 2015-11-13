@@ -16,8 +16,14 @@
 ```js
 var babel = require('jstransformer')(require('jstransformer-babel'))
 
-// TODO: Add API Documentation
+var src = 'let a = 0'
+var transformed = babel.render(src)
+//=> '"use strict";\n\nvar a = 0;'
 ```
+
+Only `render` method is implemented, which means that through the JSTransformer architecture all `render*` APIs are available.
+
+Passing options to Babel is supported as well, and all options unsupported by Babel are filtered out before passing them to Babel.
 
 ## License
 
