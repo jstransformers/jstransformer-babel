@@ -9,43 +9,7 @@ exports.outputFormat = 'js';
 /**
  * Babel's available options.
  */
-var availableOptions = [
-  'filename',
-  'filenameRelative',
-  'blacklist',
-  'whitelist',
-  'loose',
-  'optional',
-  'nonStandard',
-  'highlightCode',
-  'only',
-  'ignore',
-  'jsxPragma',
-  'auxiliaryComment',
-  'sourceMaps',
-  'inputSourceMap',
-  'sourceMapTarget',
-  'sourceFileName',
-  'sourceRoot',
-  'moduleRoot',
-  'modules',
-  'moduleIds',
-  'moduleId',
-  'getModuleId',
-  'resolveModuleSource',
-  'keepModuleIdExtensions',
-  'externalHelpers',
-  'code',
-  'ast',
-  'stage',
-  'compact',
-  'comments',
-  'shouldPrintComment',
-  'metadataUsedHelpers',
-  'env',
-  'retainLines',
-  'babelrc'
-];
+var availableOptions = Object.keys(babel.options);
 
 exports.render = function(str, options, locals) {
   // Remove any invalid options.
