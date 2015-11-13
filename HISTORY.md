@@ -1,5 +1,11 @@
 # Changelog
 
+## v1.0.0: 2015-11-12
+
+- Unchanged from last release
+- Stable release
+- Last release with babel@5
+
 ## v0.2.0: 2015-08-16
 
 - Fix to remove invalid Babel options
