@@ -10,7 +10,7 @@
     "index.js"
   ],
   "dependencies": {
-    "babel-core": "^5.8.22"
+    "babel-core": "^6.1.21"
   },
   "devDependencies": {
     "test-jstransformer": "^1.0.0"
