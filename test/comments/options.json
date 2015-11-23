@@ -1,3 +1,6 @@
 {
-  "comments": false
+  "comments": false,
+  "presets": [
+    "es2015"
+  ]
 }
