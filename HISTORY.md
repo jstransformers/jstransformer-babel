@@ -1,5 +1,10 @@
 # Changelog
 
+## v2.0.0: 2015-11-23
+
+- Update Boilerplate
+- Update to `babel-core@^6.1.18`
+
 ## v1.0.1: 2015-11-12
 
 - Some documentation updates
