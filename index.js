@@ -23,6 +23,19 @@ exports.render = function(str, options, locals) {
     }
   }
 
+  ['preset', 'plugin'].forEach(function (opt) {
+    var plural = opt + 's';
+    if (opts[plural]) {
+      opts[plural] = opts[plural].map(function (mod) {
+        try {
+          return require('babel-' + opt + '-' + mod);
+        } catch (err) {
+          return mod;
+        }
+      });
+    }
+  });
+
   // Process the new options with Babel.
   return babel.transform(str, opts).code;
 };
