@@ -16,7 +16,7 @@ exports.render = function(str, options, locals) {
   var opts = {};
   var name = null;
   options = options || {};
-  for (var index in availableOptions) {
+  for (var index = 0; index < availableOptions.length; index++) {
     name = availableOptions[index];
     if (name in options) {
       opts[name] = options[name];
