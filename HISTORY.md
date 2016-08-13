@@ -1,5 +1,11 @@
 # Changelog
 
+## v2.1.0: 2016-08-13
+
+- Support presets and plugins in the browser
+- Fix a potential bug in option validity checking
+- Add `'js'` as a recognized input format
+
 ## v2.0.0: 2016-08-13
 
 - Update Boilerplate
