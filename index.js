@@ -3,7 +3,7 @@
 var babel = require('babel-core');
 
 exports.name = 'babel';
-exports.inputFormats = ['es6', 'babel'];
+exports.inputFormats = ['es6', 'babel', 'js'];
 exports.outputFormat = 'js';
 
 /**
