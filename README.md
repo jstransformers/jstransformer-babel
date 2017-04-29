@@ -1,5 +1,7 @@
 # jstransformer-babel
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/jstransformers/jstransformer-babel.svg)](https://greenkeeper.io/)
+
 [Babel](http://babeljs.io) support for [JSTransformers](http://github.com/jstransformers).
 
 [![Build Status](https://img.shields.io/travis/jstransformers/jstransformer-babel/master.svg)](https://travis-ci.org/jstransformers/jstransformer-babel)
