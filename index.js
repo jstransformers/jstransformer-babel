@@ -1,6 +1,6 @@
 'use strict'
 
-var babel = require('babel-core')
+const babel = require('babel-core')
 
 exports.name = 'babel'
 exports.inputFormats = ['es6', 'babel', 'js']
@@ -9,24 +9,24 @@ exports.outputFormat = 'js'
 /**
  * Babel's available options.
  */
-var availableOptions = Object.keys(babel.options)
+const availableOptions = Object.keys(babel.options)
 
 exports.render = function (str, options) {
   // Remove any invalid options.
-  var opts = {}
-  var name = null
+  const opts = {}
+  let name = null
   options = options || {}
-  for (var index = 0; index < availableOptions.length; index++) {
+  for (let index = 0; index < availableOptions.length; index++) {
     name = availableOptions[index]
     if (name in options) {
       opts[name] = options[name]
     }
   }
 
-  ['preset', 'plugin'].forEach(function (opt) {
-    var plural = opt + 's'
+  ['preset', 'plugin'].forEach(opt => {
+    const plural = opt + 's'
     if (opts[plural]) {
-      opts[plural] = opts[plural].map(function (mod) {
+      opts[plural] = opts[plural].map(mod => {
         try {
           // eslint-disable-next-line import/no-dynamic-require
           return require('babel-' + opt + '-' + mod)
