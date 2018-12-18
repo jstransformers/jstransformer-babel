@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "babel-core": "^6.1.18"
+    "babel-core": "^6.26.3"
   },
   "name": "jstransformer-babel",
   "version": "2.1.0",
@@ -13,8 +13,8 @@
     "index.js"
   ],
   "devDependencies": {
-    "babel-preset-es2015": "^6.1.18",
-    "test-jstransformer": "^1.0.0",
+    "babel-preset-env": "^1.7.0",
+    "test-jstransformer": "^1.0.2",
     "xo": "*"
   },
   "scripts": {
