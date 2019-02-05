@@ -1,6 +1,6 @@
 {
   "non-existing-option": true,
   "presets": [
-    "es2015"
+    "env"
   ]
 }

@@ -30,7 +30,7 @@ exports.render = function (str, options) {
         try {
           // eslint-disable-next-line import/no-dynamic-require
           return require('babel-' + opt + '-' + mod)
-        } catch (err) {
+        } catch (error) {
           return mod
         }
       })
