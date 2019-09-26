@@ -16,7 +16,7 @@ exports.render = function (str, options) {
   const opts = {}
   let name = null
   options = options || {}
-  for (let index = 0; index < availableOptions.length; index++) {
+  for (let index = 0; index < availableOptions.length; index++) { // eslint-disable-line unicorn/no-for-loop
     name = availableOptions[index]
     if (name in options) {
       opts[name] = options[name]
@@ -28,9 +28,8 @@ exports.render = function (str, options) {
     if (opts[plural]) {
       opts[plural] = opts[plural].map(mod => {
         try {
-          // eslint-disable-next-line import/no-dynamic-require
           return require('babel-' + opt + '-' + mod)
-        } catch (error) {
+        } catch (error) { // eslint-disable-line no-unused-vars
           return mod
         }
       })
