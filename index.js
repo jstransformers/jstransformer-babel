@@ -1,6 +1,6 @@
 'use strict'
 
-const babel = require('babel-core')
+const babel = require('@babel/core')
 
 exports.name = 'babel'
 exports.inputFormats = ['es6', 'babel', 'js']
@@ -9,7 +9,9 @@ exports.outputFormat = 'js'
 /**
  * Babel's available options.
  */
-const availableOptions = Object.keys(babel.options)
+const availableOptions = Object.keys({
+  'filename': null
+})
 
 exports.render = function (str, options) {
   // Remove any invalid options.
