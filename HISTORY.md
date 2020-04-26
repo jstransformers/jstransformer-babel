@@ -1,5 +1,9 @@
 # Changelog
 
+## v2.2.0: 2019-10-10
+
+- Update to babel@7
+
 ## v2.1.0: 2016-08-13
 
 - Support presets and plugins in the browser

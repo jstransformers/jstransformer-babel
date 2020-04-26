@@ -1,9 +1,9 @@
 {
   "dependencies": {
-    "babel-core": "^6.26.3"
+    "@babel/core": "^7.6.4"
   },
   "name": "jstransformer-babel",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "Babel support for JS Transformers.",
   "keywords": [
     "jstransformer",
